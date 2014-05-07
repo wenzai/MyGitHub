@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/text_view"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="this is Activity02"
+        android:textSize="20.0sp"
+        android:gravity="center"/>
+    
+    <Button
+        android:id="@+id/btn02"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dp"
+        android:layout_below="@id/text_view"
+        android:layout_marginTop="20.dip"
+        android:text="to MyAndroidActivity" />
+    
+     <Button
+        android:id="@+id/exit_app"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dp"
+        android:layout_below="@id/btn02"
+        android:layout_marginTop="20.dip"
+        android:text="exit application" />
+</RelativeLayout>
